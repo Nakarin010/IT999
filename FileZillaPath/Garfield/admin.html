@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/bootstrap.min.css">
+</head>
+<body>
+    <a href="javascript:history.back()">
+    <div class="d-flex gap-2 justify-content-left pb-5" style="padding-left: 10px; padding-top: 10px;">
+        <button name="backbt "class="btn btn-primary rounded-square p-3 lh-1" type="button" >Return
+        </button>
+      </div>
+    </a>
+
+
+    
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">SMASHBOOK</h1>
+            <h5>Admin Login</h5>
+            <p class="col-lg-10 fs-4">Login for administrator to manage badminton courts</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" action="/login-post" method="post">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="username">
+                <label for="floatingInput">Username</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+              <hr class="my-4">
+              <small class="text-body-secondary">Login to administrator pages.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+    <script src="/bootstrap.min.js">
+
+    </script>
+</html>
