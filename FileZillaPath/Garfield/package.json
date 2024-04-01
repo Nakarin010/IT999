@@ -5,7 +5,7 @@
   "main": "front_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node front_server.js"
+    "start": "nodemon front_server.js"
   },
   "author": "Bhuriant",
   "license": "ISC",
